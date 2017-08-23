@@ -1,0 +1,92 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+		<center>
+			<br>
+			<img src="img/4.jpg" width="100px" height="100px" style="border-radius: 50px ;">
+			<br>
+			<h1 class="display-4">John Doe</h1>
+			<small class="text-muted"><b><i>@regularstudent</i></b></small>
+		</center>
+		<hr color="#333">
+	</div>
+
+	<div class="col-md-6 col-sm-6">
+		<div id="accordion" role="tablist">
+			<div class="card-header" role="tab" id="headingThree">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" href="plan.html" aria-expanded="false" aria-controls="collapseThree">
+          Plan
+        </a>
+      </h5>
+    </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingOne">
+      <h5 class="mb-0">
+        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          University List
+        </a>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <ul class="list-group">
+        	<li class="list-group-item">IIT Delhi</li>
+        	<li class="list-group-item">BITS Pilani</li>
+        	<li class="list-group-item"><a href="univ.html">Purdue University</a></li>
+        	<li class="list-group-item list-group-item-secondary"><i>Add another university...</i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingTwo">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Exam List
+        </a>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        <ul class="list-group">
+        	<li class="list-group-item">IIT-JEE</li>
+        	<li class="list-group-item">BITSAT</li>
+        	<li class="list-group-item">SAT</li>
+        	<li class="list-group-item list-group-item-secondary"><i>Add another exam...</i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab" id="headingThree">
+      <h5 class="mb-0">
+        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Notes
+        </a>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse show" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        <textarea class="form-control" rows="4"></textarea>
+        <hr>
+        <button type="button" class="btn btn-info">Save</button>
+        <button type="button" class="btn btn-secondary">Clear</button>
+        <button type="button" class="btn btn-success">Share</button>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+	</div>
+
+</body>
+</html>
